@@ -25,11 +25,11 @@ const app = express();
 
 // Set up the PostgreSQL client with your database credentials
 const client = new Client({
-  host: sql12.freemysqlhosting.net	,     // Database host (e.g., Render environment variable)
-  port: 3306,     // Database port (e.g., Render environment variable)
-  user: sql12751277,     // Database username (e.g., Render environment variable)
-  password: xaWEGdfZC7, // Database password (e.g., Render environment variable)
-  database: sql12751277  // Database name (e.g., Render environment variable)
+  host: "sql12.freemysqlhosting.net"	,     // Database host (e.g., Render environment variable)
+  port: "3306",     // Database port (e.g., Render environment variable)
+  user: "sql12751277",     // Database username (e.g., Render environment variable)
+  password: "xaWEGdfZC7", // Database password (e.g., Render environment variable)
+  database: "sql12751277"  // Database name (e.g., Render environment variable)
 });
 
 // Connect to the PostgreSQL database
