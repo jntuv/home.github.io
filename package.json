@@ -20,7 +20,7 @@
   "homepage": "https://github.com/jntuv/home.github.io#readme",
   "dependencies": {
   "express": "^4.17.1",
-    "pg": "^8.11.0"  // Replace with "mysql2" if using MySQL
+    "pg": "^8.11.0" 
 }
 
 }
