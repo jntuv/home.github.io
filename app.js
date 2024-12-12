@@ -26,7 +26,7 @@ connection.connect((err) => {
 
 // Route to fetch data from the customers table
 app.get('/customers', (req, res) => {
-  const query = 'SELECT * FROM customers';
+  const query = 'SELECT * FROM vendors';
 
   connection.query(query, (err, results) => {
     if (err) {
